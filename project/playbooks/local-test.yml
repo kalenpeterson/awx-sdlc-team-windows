@@ -1,0 +1,9 @@
+---
+- name: Run setup module on localhost
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: Gather facts
+      setup:
+

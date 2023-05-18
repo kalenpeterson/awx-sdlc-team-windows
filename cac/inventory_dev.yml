@@ -1,0 +1,15 @@
+---
+all:
+  children:
+    dev:
+      hosts:
+        localhost:
+      vars:
+        connection: local
+        controller_configuration_async_retries: 300
+        controller_hostname: awx-dev.apps.rnch.pod1.nucpod.xyz
+        controller_validate_certs: false
+        controller_api_plugin: "awx.awx"
+  vars:
+    env: dev
+...

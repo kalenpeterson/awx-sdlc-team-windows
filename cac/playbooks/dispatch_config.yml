@@ -1,0 +1,14 @@
+---
+- name: Playbook to configure ansible controller post installation
+  hosts: all
+  vars_files:
+    - "../vaults/{{ env }}.yml"
+  connection: local
+  collections:
+    - awx.awx
+    - infra.controller_configuration
+  tasks:
+    - name: Call dispatch role
+      ansible.builtin.include_role:
+        name: infra.controller_configuration.dispatch
+...

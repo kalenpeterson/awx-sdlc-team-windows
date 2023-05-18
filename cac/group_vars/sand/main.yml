@@ -1,0 +1,17 @@
+---
+controller_applications: "{{ controller_applications_all + controller_applications_sand }}"
+controller_credential_input_sources: "{{ controller_credential_input_sources_all + controller_credential_input_sources_sand }}"
+controller_credentials: "{{ controller_credentials_all + controller_credentials_sand }}"
+controller_execution_environments: "{{ controller_execution_environments_all + controller_execution_environments_sand }}"
+controller_inventories: "{{ controller_inventories_all + controller_inventories_sand }}"
+controller_inventory_sources: "{{ controller_inventory_sources_all + controller_inventory_sources_sand }}"
+controller_templates: "{{ controller_templates_all + controller_templates_sand }}"
+controller_labels: "{{ controller_labels_all + controller_labels_sand }}"
+controller_notifications: "{{ controller_notifications_all + controller_notifications_sand }}"
+controller_projects: "{{ controller_projects_all + controller_projects_sand }}"
+controller_roles: "{{ controller_roles_all + controller_roles_sand }}"
+controller_schedules: "{{ controller_schedules_all + controller_schedules_sand }}"
+controller_workflows: "{{ controller_workflows_all + controller_workflows_sand }}"
+env: sand
+scm_branch: "" # when you want it to be default branch just set to ""
+...

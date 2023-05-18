@@ -1,0 +1,6 @@
+---
+controller_inventories_sand:
+  - name: "inventory-windows-all"
+    description: ""
+    organization: "org-windows"
+...

@@ -1,0 +1,6 @@
+---
+controller_roles_sand:
+  - team: "team-linux_org-windows"
+    job_template: "template-windows-test"
+    role: "execute"
+...
